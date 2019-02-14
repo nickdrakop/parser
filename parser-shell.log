@@ -1,0 +1,13 @@
+// Parser Banner 1.2.0.RELEASE log opened at 2018-10-13 10:55:33
+help
+help parse
+help load-file
+// [failed] parse --accesslog /tmp/access.log --threshold 200 --duration HOURLY --startDate "2017-01-01 19:00:00"
+parse --accesslog /tmp/access.log --threshold 200 --duration HOURLY --startDate 2017-01-01.19:00:00
+parse --accesslog /tmp/access.log --threshold 200 --duration HOURLY --startDate 2017-01-01.19:00:00
+load-file --accesslog /tmp/access.log
+// Parser Banner 1.2.0.RELEASE log opened at 2018-10-13 11:38:53
+parse --accesslog /tmp/access.log --threshold 200 --duration HOURLY --startDate 2017-01-01.19:00:00
+// Parser Banner 1.2.0.RELEASE log opened at 2018-10-13 19:30:51
+parse --accesslog /tmp/access.log --threshold 200 --duration HOURLY --startDate 2017-01-01.19:00:00
+parse --accesslog /tmp/access.log --threshold 200 --duration HOURLY --startDate 2017-01-01.19:00:00
